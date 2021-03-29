@@ -1,0 +1,82 @@
+body{
+    background-color: white;
+    color: black;
+    font-weight: normal;
+    font-size: unset;
+    font-family:courier;
+    text-align: center;
+}
+h1,h2,h3{
+  font-family: serif;
+  font-size: x-large;
+  font-weight: bolder;	
+}
+h1{
+ font-size: 35px;
+ font-weight: bolder;	
+}
+p{
+ font-family: system-ui;
+ font-size: large;
+ 
+}
+a{
+ font-weight: bold;
+ font-style: italic;
+ color: blue	
+}
+a:hover{
+ font-weight: bold;
+ font-style: italic;
+ color: black;	
+}
+img{
+ width: 235px; 
+ border-radius: 50%;
+}
+.button-blue{
+ background-color: black;
+ color: white;
+ padding: 2px;
+ border-radius: 3px;
+}
+.button-blue:hover{
+ background-color: dimgrey;
+ color: red;
+ padding: 2px;
+ border-radius: 3px;
+}
+.list-inline{
+ list-style: none;	
+}
+li{
+ background-color: black;
+ color: white;
+ padding: 15px;
+ border-radius: 3px;
+}
+li:hover{
+  background-color: dimgrey;
+ color: red;
+ padding: 20px;
+ border-radius: 3px;
+}
+.list-inline li{
+ display: inline-flex;
+ padding: 5px;
+ margin-bottom: 20px;
+ font-size: 20px;
+ border-radius: 6px;
+ box-shadow: 0px 5px 15px rgba(0,0,0.1)
+}
+.container{
+ margin: 0px 20px;
+ box-shadow: 0px 10px 400px rgba(0,0,0.5);
+}
+.card-white{
+  background-color: snow;
+  text-align: center;	
+  box-shadow: 0px 10px 30px rgba(0,0,0.1);
+  margin: 15px 190px;
+  padding:5px;
+}
